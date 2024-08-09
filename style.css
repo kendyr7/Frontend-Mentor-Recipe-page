@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+AU+VIC+WA+NT+Hand&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+AU+VIC+WA+NT+Hand&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+/* Mobile-first styles */
+body, .main {
+  margin: 0;
+  padding: 0;
+}
+
+.omelette {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.inner-text {
+  padding: 1rem;
+}
+
+.main {
+  color: hsl(30, 10%, 34%);
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.2rem;
+  border-radius: 15px;
+}
+
+.prep-tittle {
+  padding: 1rem 1rem 0px 2rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.prep-time > ul >li {
+  padding: 0.5rem 0.5rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.prep-time > ul {
+  list-style-position: inside;
+}
+
+.ingredients > li {
+  padding-bottom: 10px;
+}
+
+.instructions > li{
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  border-bottom: 1px solid hsl(31, 22%, 60%);
+  padding: 1rem 0rem 1rem 2rem;
+  text-align: left;
+}
+
+.table-prop {
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Larger screens */
+@media (min-width: 360px) {
+  .main {
+    padding: 1rem;
+  }
+  .inner-text {
+    padding: 0;
+  }
+
+  .omelette {
+    border-radius: 1rem;
+  }
+}
